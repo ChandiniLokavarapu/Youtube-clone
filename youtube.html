@@ -4,40 +4,33 @@
 <head>
   <title>YouTube Clone</title>
   <style>
-    .header {
-      display: flex;
-      flex-direction: row;
-      height: 57px; 
-      border: 1px solid red;
-      
-    justify-content: space-between;
-    align-items: center;
-      
-    }
 
-    .left-section { 
-      background-color: rgb(243, 144, 144);
-      width: 100px;
-    }
-
-    .middle-section {
-      background-color: lightgray;
-      width: 300px;
-    }
-
-    .right-section {
-      background-color: lightgreen;
-      width: 200px;
-    }
   </style>
+  <link rel="stylesheet" href="/styles/general.css">
+  <link rel="stylesheet" href="/styles/header.css">
 </head>
 
 <body>
   <div class="header">
-    <div class="left-section">150px</div>
-    <div class="middle-section ">search bar</div>
+    <div class="left-section">
+      <img class="hamburger-menu" src="/header-logs/hamburger-menu.svg">
+      <img class="youtube-logo" src="/header-logs/youtube-logo.svg">
+    </div>
+
+    <div class="middle-section ">
+      <input class="search-bar" placeholder="Search">
+      <button class="search-button">
+        <img src="header-logs/search.svg" />
+      </button>
+      <button class="voice-search-button">
+        <img src="header-logs/voice-search-icon.svg">
+      </button>
+    </div>
+
     <div class="right-section ">200px</div>
   </div>
+
+  <p>Do mistakes and learn something from your mistakes</p>
 </body>
 
 </html>
