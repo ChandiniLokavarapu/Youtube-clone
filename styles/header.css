@@ -4,8 +4,8 @@
   height: 57px;
   border: 1px solid red;
 
-  justify-content: space-between; 
- 
+  justify-content: space-between;
+
   position: fixed;
   left: 0px;
   top: 0;
@@ -14,60 +14,76 @@
 
 .left-section {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
   align-items: center;
 }
 
-.hamburger-menu{
+.hamburger-menu {
   height: 24px;
   margin-left: 20px;
   margin-right: 20px;
 }
+
 .youtube-logo {
   height: 20px;
 }
 
-.middle-section { 
+.middle-section {
   flex: 1;
   margin-right: 35px;
+  margin-left: 70px;
   max-width: 500px;
+
   display: flex;
   flex-direction: row;
-  background-color: pink;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-bar {
   flex: 1;
-  height: 40px; 
-  min-width: 0;
-  padding-left: 12px; 
-  border: 1px solid rgb(204, 204, 204);
-  font-size: 16px;  
-  box-shadow: inset 0px 1px 2px rgb(238, 238, 238);
-}
-
-.search-bar::placeholder {
+  height: 36px;
+  width: 0;
   
+  padding-left: 12px;
+  border: 1px solid rgb(204, 204, 204);
+  font-size: 16px;
+  box-shadow: inset 0px 1px 2px rgb(238, 238, 238);
 }
 
 .middle-section .search-button {
   width: 60px;
-  height: 44px;
-
+  height: 40px;
   display: flex;
-  flex-direction: row; 
-  margin-left: -3px; 
+  flex-direction: row;
+  margin-left: 0px;
   border: 1px solid rgb(204, 204, 204);
-
   align-items: center;
   justify-content: center;
+  margin-right: 8px;
+  background-color: rgb(247, 247, 247);
+  border-left: none;
 }
 
 .middle-section .search-button img{
   height: 24px;
 }
 
+.middle-section .voice-search {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(245, 245, 245);
+  padding-top: 3px;
+}
+
+.middle-section .voice-search img  {
+  height: 23px;
+}
+
 .right-section {
   background-color: lightblue;
   width: 200px;
+  align-items: normal;
 }
