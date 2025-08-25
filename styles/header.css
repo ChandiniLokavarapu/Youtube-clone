@@ -8,8 +8,8 @@
 
   position: fixed;
   left: 0px;
-  top: 0;
-  right: 0;
+  top: 0px;
+  right: 0px;
 }
 
 .left-section {
@@ -82,8 +82,30 @@
   height: 23px;
 }
 
-.right-section {
-  background-color: lightblue;
-  width: 200px;
-  align-items: normal;
+.right-section { 
+  width: 180px; 
+
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.upload-icon {
+  height: 24px;
+}
+
+.youtube-apps-icon {
+  height: 24px;
+}
+
+.notifications-icon{
+  height: 24px;
+}
+
+.current-profile-icon {
+  height: 32px; 
+  border-radius: 50%;
+  margin-right: 20px;
 }
